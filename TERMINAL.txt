@@ -1,0 +1,58 @@
+a. Send Status notification and Toast message wherever applicable
+b. Use Alert Dialog to properly close your application
+c. Use Progress Dialog for suitable case in your app
+d. Use Date and Time Picker to set your friend’s Birthday Dates and send status
+notification on the date and specific time
+
+a. Option Menu
+b. Context Menu
+c. Popup Menu
+
+a. foreground service
+b. background service
+
+a. location based services
+b. geocoder
+
+sms
+
+shared pref
+SQLite
+firebase/firestore
+
+video, audio
+
+camera, Bluetooth, wifi
+
+create a Shopping application with the following features
+-Products details and price
+-show product details based on any 3 categories
+-Add to cart 
+-toast message notification if cart has more than 8 items
+-use shared preferences for dark and light mode, and for loggedIn status ( to keep the user logged in)
+- include pop up menu for the setting option in the navigation bar with the options - profile, cart, etc
+- sms is sent to the person with contact details - 9499952856 when cart has more than 8 items
+- include camera support for search option
+- include video for product display
+
+create a library management application
+- list of all libraries near me is shown using location based services
+- perform crud operations for the books inside each library
+- use sqlite for storage
+
+✅ Method 1: Database Inspector (Recommended)
+Steps
+Run your app on an emulator or real device
+
+In Android Studio:
+
+View → Tool Windows → App Inspection
+Select your app process
+Open Database Inspector
+You will see:
+Your database (e.g., LibraryDB)
+Tables (e.g., books)
+What you can do
+Click a table → view rows directly
+Run queries like:
+SELECT * FROM books;
